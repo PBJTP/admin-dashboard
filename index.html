@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <h1>style test</h1>
     <div class="header">
-        <input type="text" class="search">
-        <a href="" class="notification"></a>
-        <a href="" class="profilepic"></a>
-        <a href="" class="profile"></a>
+        <div class="header-left">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" class="search">
+        </div>
+        <div class="header-right">
+            <a href="" class="notification"><span class="material-symbols-outlined">notifications_active</span></a>
+            <a href="" class="profilepic"><span class="material-symbols-outlined">account_circle</span></a>
+            <a href="" class="profile"><b>User Admin</b></a>
+        </div>
     </div>
     <div class="nav">
+        <div class="profilepic"><a href="" class="profilepic"><span class="material-symbols-outlined">account_circle</span></a></div>
         <div class="nav-left">
-            <div class="logo"></div>
             <div class="greeting">Hi there,</div>
             <div class="user">User Admin</div>
         </div>
@@ -28,7 +33,7 @@
         </div>
     </div>
     <div class="dashboard">
-        <h1 class="logo"></h1>
+        <h1 class="logo"><span class="material-symbols-outlined">gesture</span>Dashboard</h1>
         <ul>
             <li>Home</li>
             <li>Profile</li>
@@ -42,6 +47,44 @@
             <li>Support</li>
             <li>Privacy</li>
         </ul>
+    </div>
+    <div class="content">
+        <div class="projects">
+        <h2>Your Projects</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illum sapiente iste qui nostrum placeat culpa, laudantium ex inventore beatae odio, excepturi quis quod repellat fugiat cum asperiores alias debitis.</p>
+                </div>
+                <div class="card">
+                    <h3>Less Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus corrupti eius recusandae in reiciendis necessitatibus molestias enim, quisquam quia magnam vel mollitia laudantium veritatis sapiente illum tempora dolorem! Harum, cum.</p>
+                </div>
+                <div class="card">
+                    <h3>Impossible App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veniam, eos, dicta explicabo itaque autem ex minus temporibus error repellat eligendi tenetur maiores harum molestias voluptatum, omnis voluptas quidem ab.</p>
+                </div>
+                <div class="card">
+                    <h3>Easy Peasy App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quaerat deleniti dicta officia modi aperiam magnam eum odio sequi, culpa repellat iste aspernatur ducimus, hic doloremque? Dicta minima illo impedit.</p>
+                </div>
+                <div class="card">
+                    <h3>Ad Blocker</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi ipsa, necessitatibus nobis quidem numquam id harum est odio animi ex nihil mollitia doloribus. Reiciendis non ducimus dignissimos nihil ex?</p>
+                </div>
+                <div class="card">
+                    <h3>Money Maker</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est debitis ullam ducimus vitae in mollitia delectus. Saepe dolorum molestias tenetur aut, eligendi voluptatem similique tempora hic impedit ipsa, quam molestiae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="announcements">
+            <h2>Announcements</h2>
+            
+        </div>
+        <div class="trending">
+            <h2>Trending</h2>
+        </div>
     </div>
 </body>
 </html>
